@@ -10,7 +10,7 @@ export const MiniNext = () => {
   return (
     <div className="min-w-12 rounded-full text-xs lg:text-sm py-1 px-3 bg-black text-white flex items-center gap-1">
       <div className="h-4 w-4 ">
-        <Image src={nextSvg} alt="next" />
+        <Image src={nextSvg} alt="next" title="next" />
       </div>
       Next.js
     </div>
@@ -21,7 +21,7 @@ export const MiniTailwind = () => {
   return (
     <div className="min-w-12 rounded-full text-xs lg:text-sm py-1 px-3 bg-[#13465e] text-white flex items-center gap-1">
       <div className="h-4 w-4 ">
-        <Image src={tailwindSvg} alt="tailwind" />
+        <Image src={tailwindSvg} alt="tailwind" title="tailwind" />
       </div>
       Tailwind CSS
     </div>
@@ -32,7 +32,7 @@ export const MiniFirebase = () => {
   return (
     <div className="min-w-12 rounded-full text-xs lg:text-sm py-1 px-3 bg-[#582b11] text-white flex items-center gap-1">
       <div className="h-4 w-4 ">
-        <Image src={firebaseSvg} alt="firebase" />
+        <Image src={firebaseSvg} alt="firebase" title="firebase" />
       </div>
       Firebase
     </div>
@@ -43,7 +43,7 @@ export const MiniReact = () => {
   return (
     <div className="min-w-12 rounded-full text-xs lg:text-sm py-1 px-3 bg-[#0e2046] text-white flex items-center gap-1">
       <div className="h-4 w-4 ">
-        <Image src={reactSvg} alt="firebase" />
+        <Image src={reactSvg} alt="react" title="react" />
       </div>
       React
     </div>
@@ -54,7 +54,7 @@ export const MiniMeli = () => {
   return (
     <div className="min-w-12 rounded-full text-xs lg:text-sm py-1 px-3 bg-[#6a6d15] text-white flex items-center gap-1">
       <div className="h-5 w-5 ">
-        <Image src={meliSvg} alt="firebase" />
+        <Image src={meliSvg} alt="mercado libre" title="MercadoLibre" />
       </div>
       API MercadoLibre
     </div>
@@ -65,7 +65,7 @@ export const MiniSv = () => {
   return (
     <div className="min-w-12 rounded-full text-xs lg:text-sm py-1 px-3 bg-[#473333] text-white flex items-center gap-1">
       <div className="h-5 w-5 ">
-        <Image src={svSvg} alt="firebase" />
+        <Image src={svSvg} alt="server local" title="server local" />
       </div>
       Server Local
     </div>

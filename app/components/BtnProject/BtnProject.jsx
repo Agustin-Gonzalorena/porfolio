@@ -12,6 +12,7 @@ const BtnProject = ({ link, title, icon }) => {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
+      title={icon == "gh" ? `Ver el código` : `Ver el proyecto`}
       className="flex items-center gap-2 border rounded-xl py-1 px-3 text-lg font-semibold bg-[#141414] shadow-md shadow-black hover:border-[#C3FF63] hover:text-[#C3FF63] transition-all active:scale-95"
       onMouseEnter={handleHover}
       onMouseLeave={handleHover}

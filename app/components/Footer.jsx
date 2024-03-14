@@ -11,6 +11,7 @@ const Footer = () => {
             <a
               href="https://github.com/midudev"
               target="_blank"
+              title="midudev"
               rel="noopener noreferrer"
               className="text-[#0099ff]"
             >

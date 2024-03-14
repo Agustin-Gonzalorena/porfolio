@@ -7,7 +7,8 @@ const ProjectItem = ({ title, img, stack, text, links }) => {
       <div className="h-52 md:h-64 xl:w-1/2  rounded-3xl  overflow-x-hidden overflow-y-hidden shadow-md shadow-black">
         <Image
           src={img}
-          alt="efemeride"
+          alt={title}
+          title={title}
           className="object-cover object-top hover:scale-[1.05] transition-all duration-300 ease-in-out"
         />
       </div>
