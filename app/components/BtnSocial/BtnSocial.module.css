@@ -1,0 +1,32 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 115px;
+  text-align: center;
+  padding: 3px 10px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: #1f1f1f;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease-out;
+}
+.btn img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.btn:hover {
+  background-color: #2f2f2f;
+  border: 1px solid #c3ff63;
+  color: #c3ff63;
+  /* box-shadow: inset 1px 1px 5px #c3ff63; */
+}
+.btn:active {
+  transform: scale(0.9);
+}
+@media screen and (max-width: 768px) {
+  .btn {
+    min-width: 80px;
+  }
+}

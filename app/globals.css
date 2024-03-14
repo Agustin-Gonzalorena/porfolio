@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Nunito Variable", system-ui, sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overscroll-behavior: none;
+  box-sizing: border-box;
+}
+strong {
+  font-weight: 800;
+}
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+  min-height: 100vh;
+  width: 100%;
+  background: #242424;
+  background: radial-gradient(
+    ellipse 80% 80% at 50% -30%,
+    #444444 0%,
+    /* 444444 */ #242424 100%
+  );
+}
