@@ -1,6 +1,7 @@
 import { Xp } from "@/app/svg/svgs";
 import ExperienceItem from "../ExperienceItem";
 import { experience } from "@/utils/experience";
+
 const Experience = () => {
   return (
     <section className="w-11/12 md:max-w-2xl lg:max-w-3xl xl:max-w-4xl flex flex-col justify-end mb-36">

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { GithubIcon, LinkIcon } from "@/app/svg/svgs";
+import BtnProject from "./BtnProject/BtnProject";
 
 const ProjectItem = ({ title, img, stack, text, links }) => {
   return (
@@ -13,35 +13,15 @@ const ProjectItem = ({ title, img, stack, text, links }) => {
       </div>
       <div className="w-11/12 xl:w-1/2 flex flex-col select-text">
         <h3 className="text-3xl font-bold">{title}</h3>
-        <div className="w-full py-2 flex gap-2">
+        <div className="w-full py-2 flex gap-2 select-none">
           {stack.map((item) => {
             return item;
           })}
         </div>
         <p className="text-lg font-thin mb-3">{text}</p>
         <div className="flex gap-3 select-none">
-          <a
-            href={links.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 border rounded-xl py-1 px-3 text-lg font-semibold bg-[#141414] shadow-md shadow-black "
-          >
-            <div className="h-5 w-5">
-              <GithubIcon />
-            </div>
-            Code
-          </a>
-          <a
-            href={links.preview}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 border rounded-xl py-1 px-3 font-semibold bg-[#141414] shadow-md shadow-black"
-          >
-            <div className="h-5 w-5">
-              <LinkIcon />
-            </div>
-            Preview
-          </a>
+          <BtnProject link={links.github} title="Code" icon="gh" />
+          <BtnProject link={links.preview} title="Preview" icon="link" />
         </div>
       </div>
     </div>

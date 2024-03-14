@@ -31,3 +31,30 @@ strong {
     /* 444444 */ #242424 100%
   );
 }
+.logo {
+  position: fixed;
+  z-index: 999;
+  width: 60px;
+  height: 60px;
+  background-image: url(/favicon.svg);
+  border-radius: 50%;
+  background-size: 104% 104%;
+  background-position: center;
+  bottom: 20px;
+  right: 20px;
+  opacity: 1;
+  box-shadow: 0px 0px 10px 4px #0000009d;
+  transition: all 0.1s ease-in-out;
+  box-sizing: border-box;
+}
+.logo:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 1px #c3ff63;
+}
+.logo:active {
+  transform: scale(0.9);
+}
+.logo.close {
+  opacity: 0;
+  z-index: -10;
+}
