@@ -1,6 +1,7 @@
 import shortUrlImg from "@/app/assets/imgs/shorturl.webp";
 import efemeridesImg from "@/app/assets/imgs/efemerides.webp";
 import shopmelonImg from "@/app/assets/imgs/shopmelon.webp";
+import usdtpriceImg from "@/app/assets/imgs/usdtprice.webp";
 
 import {
   MiniFirebase,
@@ -51,6 +52,17 @@ export const projects = [
     links: {
       github: "https://github.com/Agustin-Gonzalorena/shop_melon_react_js",
       preview: "https://shop-melon-react-js.vercel.app/",
+    },
+  },
+  {
+    id: 3,
+    title: "Precio USDT",
+    img: usdtpriceImg,
+    stack: [<MiniReact key={1} />, <MiniTailwind key={2} />],
+    text: "Aplicacion web que muestra el precio del USDT en tiempo real en diferentes exchanges. Utiliza la API de CryptoYa para obtener los datos necesarios, los cuales se actualizan minuto a minuto.",
+    links: {
+      github: "https://github.com/Agustin-Gonzalorena/usdt-price",
+      preview: "https://usdtprice.vercel.app/",
     },
   },
 ];
