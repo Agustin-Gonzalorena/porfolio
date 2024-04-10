@@ -254,7 +254,7 @@ export const GitSvg = ({ color }) => {
 export const ArgentinaSvg = ({ size }) => {
   return (
     <svg
-      className={`size-${size} inline-block iconify iconify--twemoji`}
+      className={`size-${size} inline-block`}
       viewBox="0 0 36 36"
       aria-hidden="true"
       role="img"
