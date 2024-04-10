@@ -1,6 +1,7 @@
+import Image from "next/image";
 import BtnSocial from "../BtnSocial/BtnSocial";
 import { social } from "@/utils/social";
-import { ArgentinaSvg } from "@/app/svg/svgs";
+import argentina from "@/app/assets/imgs/argentina.webp";
 
 const Hero = () => {
   return (
@@ -11,7 +12,12 @@ const Hero = () => {
           <span className="text-[#C3FF63]">
             Desarrollador Web y Blockchain Entusiasta,
           </span>{" "}
-          de Buenos Aires, Argentina <ArgentinaSvg size={4} />.
+          de Buenos Aires, Argentina{" "}
+          <Image
+            src={argentina}
+            className="h-5 w-5 inline select-none pointer-events-none"
+          />{" "}
+          .
         </p>
         <p>Especializado en la creación de aplicaciones web personalizadas.</p>
       </div>

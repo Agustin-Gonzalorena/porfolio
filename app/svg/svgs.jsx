@@ -250,23 +250,3 @@ export const GitSvg = ({ color }) => {
     </svg>
   );
 };
-
-export const ArgentinaSvg = ({ size }) => {
-  return (
-    <svg
-      className="w-4 h-4 inline"
-      viewBox="0 0 36 36"
-      aria-hidden="true"
-      role="img"
-      fill="#000000"
-    >
-      <g id="SVGRepo_iconCarrier">
-        <path
-          fill="#75AADB"
-          d="M36 27a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V9a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4v18z"
-        ></path>
-        <path fill="#EEE" d="M0 13h36v10H0z"></path>
-      </g>
-    </svg>
-  );
-};
