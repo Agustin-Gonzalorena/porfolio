@@ -12,7 +12,7 @@ const BtnSocial = ({ url, icon, text }) => {
     <a
       href={url}
       target="_blank"
-      rel="noreferrer"
+      rel="noopener noreferrer"
       title={text}
       className={styles.btn}
       onMouseEnter={handleHover}
