@@ -11,7 +11,12 @@ export const metadata = {
   publisher: "Agustin Gonzalorena",
   robots: "index, follow",
   googlebot: "index, follow",
-  canonical: "https://agonzalorena.vercel.app",
+  authors: [
+    {
+      name: "Agustin Gonzalorena",
+      url: "https://github.com/Agustin-Gonzalorena",
+    },
+  ],
 };
 
 export default function RootLayout({ children }) {
@@ -19,6 +24,9 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <head>
         <link rel="icon" href="/favicon.svg" />
+        <meta property="og:image" content="/favicon.svg" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="600" />
       </head>
       <body className={`${nunito.className} relative tracking-tight`}>
         {children}
