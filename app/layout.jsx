@@ -6,7 +6,7 @@ const nunito = Nunito({ subsets: ["latin"] });
 export const metadata = {
   title: "Porfolio de Agustin Gonzalorena - Desarrollador web",
   description:
-    "Porfolio personal de Agustin Gonzalorena. Desarrollador web y blockchain entusiasta. FullStack developer. Especializado en la creacion de aplicaciones web personalizadas",
+    "Porfolio de Agustin Gonzalorena. Desarrollador web y blockchain entusiasta. FullStack developer. Especializado en la creacion de aplicaciones web personalizadas",
   keywords: "Agustin Gonzalorena, Desarrollador web, Gonzalorena",
   publisher: "Agustin Gonzalorena",
   robots: "index, follow",
