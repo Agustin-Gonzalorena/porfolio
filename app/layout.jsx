@@ -18,14 +18,14 @@ export const metadata = {
     },
   ],
   alternates: {
-    canonical: "/",
-    languages: {
-      "es-AR": "/es-AR",
-      "en-US": "/en-US",
-    },
+    canonical: "https://agustin-gonzalorena.vercel.app/",
   },
   openGraph: {
-    images: "https://iili.io/JgNyWru.jpg",
+    images: {
+      url: "https://iili.io/JgNyWru.jpg", // Must be an absolute URL
+      width: 800,
+      height: 600,
+    },
   },
 };
 
