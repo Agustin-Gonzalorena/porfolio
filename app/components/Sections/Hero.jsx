@@ -16,6 +16,8 @@ const Hero = () => {
           <Image
             src={argentina}
             className="h-5 w-5 inline select-none pointer-events-none"
+            title="Argentina"
+            alt="Argentina"
           />{" "}
           .
         </p>
