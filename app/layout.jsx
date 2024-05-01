@@ -18,7 +18,7 @@ export const metadata = {
     },
   ],
   alternates: {
-    canonical: "https://agustin-gonzalorena.vercel.app/",
+    canonical: "https://agonzalorena.vercel.app/",
   },
   openGraph: {
     images: {
