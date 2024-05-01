@@ -9,7 +9,6 @@ export const metadata = {
     "Porfolio personal de Agustin Gonzalorena. Desarrollador web y blockchain entusiasta. FullStack developer. Especializado en la creacion de aplicaciones web personalizadas",
   keywords: "Agustin Gonzalorena, Desarrollador web, Gonzalorena",
   publisher: "Agustin Gonzalorena",
-  author: "Agustin Gonzalorena",
 };
 
 export default function RootLayout({ children }) {
