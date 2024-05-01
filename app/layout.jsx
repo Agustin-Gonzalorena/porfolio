@@ -8,13 +8,13 @@ export const metadata = {
   description:
     "Porfolio personal de Agustin Gonzalorena. Desarrollador web y blockchain entusiasta. FullStack developer. Especializado en la creacion de aplicaciones web personalizadas",
   keywords: "Agustin Gonzalorena, Desarrollador web, Gonzalorena",
-  author: "Agustin Gonzalorena",
   publisher: "Agustin Gonzalorena",
+  author: "Agustin Gonzalorena",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <link rel="icon" href="/favicon.svg" />
       </head>
