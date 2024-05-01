@@ -4,10 +4,12 @@ import "./globals.css";
 const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
-  title:
-    "Porfolio de Agustin Gonzalorena - Desarrollador web y Blockchain Entusiasta",
+  title: "Porfolio de Agustin Gonzalorena - Desarrollador web",
   description:
-    "Agustin Gonzalorena. Desarrollador web y blockchain entusiasta. FullStack developer.",
+    "Porfolio personal de Agustin Gonzalorena. Desarrollador web y blockchain entusiasta. FullStack developer. Especializado en la creacion de aplicaciones web personalizadas",
+  keywords: "Agustin Gonzalorena, Desarrollador web, Gonzalorena",
+  author: "Agustin Gonzalorena",
+  publisher: "Agustin Gonzalorena",
 };
 
 export default function RootLayout({ children }) {
