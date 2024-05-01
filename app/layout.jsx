@@ -17,6 +17,16 @@ export const metadata = {
       url: "https://github.com/Agustin-Gonzalorena",
     },
   ],
+  alternates: {
+    canonical: "/",
+    languages: {
+      "es-AR": "/es-AR",
+      "en-US": "/en-US",
+    },
+  },
+  openGraph: {
+    images: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -24,9 +34,6 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <head>
         <link rel="icon" href="/favicon.svg" />
-        <meta property="og:image" content="/favicon.svg" />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="600" />
       </head>
       <body className={`${nunito.className} relative tracking-tight`}>
         {children}
