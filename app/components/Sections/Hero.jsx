@@ -6,7 +6,10 @@ import argentina from "@/app/assets/imgs/argentina.webp";
 const Hero = () => {
   return (
     <section className="w-11/12 md:max-w-2xl lg:max-w-3xl xl:max-w-4xl flex flex-col justify-end select-none mb-36 mt-32">
-      <h1 className="font-bold text-5xl mb-5">Agustin Gonzalorena</h1>
+      {/* <!-- No traducir: Agustin Gonzalorena --> */}
+      <h1 id="Nombre personal" className="font-bold text-5xl mb-5">
+        Agustin Gonzalorena
+      </h1>
       <div className="text-xl mb-8">
         <p className="text-pretty">
           <span className="text-[#C3FF63]">
