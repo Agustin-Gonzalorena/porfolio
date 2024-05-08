@@ -28,6 +28,14 @@ export const metadata = {
     },
   },
 };
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Agustin Gonzalorena",
+  url: "https://agonzalorena.vercel.app/",
+  image: "https://iili.io/JgNyWru.jpg",
+  jobTitle: "Desarrollador web",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -37,6 +45,10 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${nunito.className} relative tracking-tight`}>
         {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </body>
     </html>
   );
