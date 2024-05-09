@@ -33,12 +33,26 @@ const About = () => {
             en ambos aspectos.
           </p>
           <p>
-            En este momento, me encuentro inmerso en la investigación y el
-            estudio de blockchain, centrándome especialmente en{" "}
+            Mi formación en la{" "}
             <span className="text-[#C3FF63]">
-              su aplicación en el desarrollo de aplicaciones descentralizadas
+              Tecnicatura Universitaria en Desarrollo de Aplicaciones
+              Informáticas
             </span>{" "}
-            utilizando Solidity.
+            en la Universidad Nacional del Centro de la Provincia de Buenos
+            Aires{" "}
+            <a
+              href="https://exa.unicen.edu.ar/tudai/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#C3FF63] hover:cursor-pointer transition-all"
+              title="Universidad Nacional del Centro de la Provincia de Buenos Aires"
+            >
+              {" "}
+              (UNICEN)
+            </a>{" "}
+            me ha brindado una base sólida en el diseño y la implementación de
+            software. Además, me encuentro en constante actualización,
+            investigando y estudiando las últimas tecnologías, como blockchain.
           </p>
         </div>
         <div className="flex">
@@ -46,7 +60,7 @@ const About = () => {
             className="border-4 border-gray-800 rounded-3xl md:rotate-6 shadow-lg shadow-black w-60 h-60 md:w-52 md:h-52 lg:w-64 lg:h-64 hover:-rotate-0 transition-all"
             src={mePhoto}
             alt="Una foto mía"
-            title="Una foto mía"
+            title="Agustin Gonzalorena"
           />
         </div>
       </div>
