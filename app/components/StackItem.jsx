@@ -12,10 +12,10 @@ const StackItem = ({ SvgComponent, text }) => {
       onMouseEnter={handleHover}
       onMouseLeave={handleHover}
     >
-      <div className="h-16 w-16">
+      <div className="h-14 w-14">
         <SvgComponent color={hover} />
       </div>
-      <p>{text}</p>
+      <p className="text-sm">{text}</p>
     </div>
   );
 };
