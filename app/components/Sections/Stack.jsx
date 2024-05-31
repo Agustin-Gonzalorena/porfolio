@@ -11,7 +11,7 @@ const Stack = () => {
         </div>
         Tecnologías
       </h2>
-      <h3 className="text-lg font-semibold  select-none mb-5">Mas usadas</h3>
+      <h3 className="text-lg font-semibold  select-none mb-5">Más usadas</h3>
       <StackBox option="mostUsed" />
       <h3 className="text-lg font-semibold select-none mb-5 mt-10">
         Formacion universitaria
