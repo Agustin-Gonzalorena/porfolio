@@ -1,7 +1,8 @@
-import shortUrlImg from "@/app/assets/imgs/shorturl.webp";
-import efemeridesImg from "@/app/assets/imgs/efemerides.webp";
-import shopmelonImg from "@/app/assets/imgs/shopmelon.webp";
-import usdtpriceImg from "@/app/assets/imgs/usdtprice.webp";
+import shortUrlImg from "@/app/assets/imgs/1.webp";
+import efemerideImg from "@/app/assets/imgs/2.webp";
+import shopmelonImg from "@/app/assets/imgs/3.webp";
+import usdtpriceImg from "@/app/assets/imgs/4.webp";
+import walletImg from "@/app/assets/imgs/5.webp";
 
 import {
   MiniFirebase,
@@ -31,7 +32,7 @@ export const projects = [
   {
     id: 1,
     title: "Efemerides",
-    img: efemeridesImg,
+    img: efemerideImg,
     stack: [
       <MiniReact key={1} />,
       <MiniTailwind key={2} />,
@@ -59,10 +60,21 @@ export const projects = [
     title: "Precio USDT",
     img: usdtpriceImg,
     stack: [<MiniReact key={1} />, <MiniTailwind key={2} />],
-    text: "Aplicacion web que muestra el precio del USDT en tiempo real en diferentes exchanges. Utiliza la API de CryptoYa para obtener los datos necesarios, los cuales se actualizan minuto a minuto.",
+    text: "Sitio web que muestra el precio del USDT en tiempo real en diferentes exchanges. Utiliza la API de CryptoYa para obtener los datos necesarios, los cuales se actualizan minuto a minuto.",
     links: {
       github: "https://github.com/Agustin-Gonzalorena/usdt-price",
       preview: "https://usdtprice.vercel.app/",
+    },
+  },
+  {
+    id: 4,
+    title: "Wallet Creator",
+    img: walletImg,
+    stack: [<MiniNext key={1} />, <MiniTailwind key={2} />],
+    text: "Aplicacion web que permite crear una billetera de Ethereum. Utiliza la libreria de bip39 para generar una frase mnemonica, la cual luego con la ayuda de ethers.js se genera una billetera.",
+    links: {
+      github: "https://github.com/Agustin-Gonzalorena/wallet-generator",
+      preview: "https://walletcreator.vercel.app/",
     },
   },
 ];
