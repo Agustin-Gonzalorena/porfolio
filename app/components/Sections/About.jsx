@@ -17,7 +17,7 @@ const About = () => {
             Desde joven, siempre disfruté creando cosas. Inicialmente, me
             sumergí en el estudio de la arquitectura, pero pronto me di cuenta
             de que{" "}
-            <span className="text-[#C3FF63]">
+            <span className="text-primary_a">
               mi verdadera pasión estaba en la creación de software
             </span>{" "}
             en lugar de edificios.
@@ -25,7 +25,7 @@ const About = () => {
           <p>
             Como programador, busco canalizar esa creatividad y funcionalidad
             para{" "}
-            <span className="text-[#C3FF63]">
+            <span className="text-primary_a">
               ofrecer soluciones a través del desarrollo de aplicaciones web
             </span>
             . Por el momento, no he podido decidirme entre enfocarme en el
@@ -34,7 +34,7 @@ const About = () => {
           </p>
           <p>
             Mi formación en la{" "}
-            <span className="text-[#C3FF63]">
+            <span className="text-primary_a">
               Tecnicatura Universitaria en Desarrollo de Aplicaciones
               Informáticas
             </span>{" "}
@@ -44,7 +44,7 @@ const About = () => {
               href="https://exa.unicen.edu.ar/tudai/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#C3FF63] hover:cursor-pointer transition-all"
+              className="hover:text-primary_a hover:cursor-pointer transition-all"
               title="Universidad Nacional del Centro de la Provincia de Buenos Aires"
             >
               {" "}

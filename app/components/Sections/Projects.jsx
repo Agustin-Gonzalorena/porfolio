@@ -31,7 +31,7 @@ const Projects = () => {
           target="_blank"
           rel="noopener noreferrer"
           title="Ver más proyectos"
-          className="border-2 border-gray-800 rounded-3xl py-2 px-4 text-lg font-semibold bg-[#141414] shadow-md shadow-black  hover:border-[#C3FF63] transition-all duration-300 ease-in-out active:scale-95"
+          className="border-2 border-gray-800 rounded-3xl py-2 px-4 text-lg font-semibold bg-[#141414] shadow-md shadow-black  hover:border-primary_a hover:text-primary_a transition-all duration-200 ease-in-out active:scale-95"
         >
           Más proyectos
         </a>

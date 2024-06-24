@@ -18,9 +18,8 @@
 }
 .btn:hover {
   background-color: #2f2f2f;
-  border: 1px solid #c3ff63;
-  color: #c3ff63;
-  /* box-shadow: inset 1px 1px 5px #c3ff63; */
+  border: 1px solid var(--primary_a);
+  color: var(--primary_a);
 }
 .btn:active {
   transform: scale(0.9);

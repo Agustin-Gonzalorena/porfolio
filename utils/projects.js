@@ -46,7 +46,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "E-commerce ShopMelon",
+    title: "E-commerce",
     img: shopmelonImg,
     stack: [<MiniReact key={1} />, <MiniMeli key={2} />],
     text: "E-commerce de tecnologia desarrollado con React, consumiendo la API de Mercado Libre. Cuenta con un carrito de compras, busqueda de productos, filtros y detalles de cada producto.",

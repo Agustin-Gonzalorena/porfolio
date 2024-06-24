@@ -8,7 +8,7 @@ const StackItem = ({ SvgComponent, text }) => {
   }
   return (
     <div
-      className="flex flex-col gap-1 items-center hover:text-[#C3FF63] hover:scale-105 transition-all duration-300 ease-in-out min-w-24 "
+      className="flex flex-col gap-1 items-center hover:text-primary_a hover:scale-105 transition-all duration-300 ease-in-out min-w-24 "
       onMouseEnter={handleHover}
       onMouseLeave={handleHover}
     >

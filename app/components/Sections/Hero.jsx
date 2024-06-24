@@ -12,7 +12,7 @@ const Hero = () => {
       </h1>
       <div className="text-xl mb-8">
         <p className="text-pretty">
-          <span className="text-[#C3FF63]">
+          <span className="text-primary_a">
             Desarrollador Web y Blockchain Entusiasta,
           </span>{" "}
           de Buenos Aires, Argentina{" "}

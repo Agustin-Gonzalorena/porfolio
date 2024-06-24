@@ -15,7 +15,7 @@ const ProjectItem = ({ title, img, stack, text, links }) => {
         </a>
       </div>
       <div className="w-11/12 xl:w-1/2 flex flex-col select-text">
-        <h3 className="text-3xl font-bold">{title}</h3>
+        <h3 className="text-2xl font-semibold">{title}</h3>
         <div className="w-full py-2 flex gap-2 select-none">
           {stack.map((item) => {
             return item;
