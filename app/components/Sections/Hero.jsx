@@ -12,9 +12,7 @@ const Hero = () => {
       </h1>
       <div className="text-xl mb-8">
         <p className="text-pretty">
-          <span className="text-primary_a">
-            Desarrollador Web y Blockchain Entusiasta,
-          </span>{" "}
+          <span className="text-primary_a">Desarrollador Web Full Stack</span>,
           de Buenos Aires, Argentina{" "}
           <Image
             src={argentina}

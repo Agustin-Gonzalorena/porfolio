@@ -52,7 +52,8 @@ const About = () => {
             </a>{" "}
             me ha brindado una base sólida en el diseño y la implementación de
             software. Además, me encuentro en constante actualización,
-            investigando y estudiando las últimas tecnologías, como blockchain.
+            investigando y estudiando las últimas tecnologías, como
+            <span className="text-primary_a"> Blockchain.</span>
           </p>
         </div>
         <div className="flex">
