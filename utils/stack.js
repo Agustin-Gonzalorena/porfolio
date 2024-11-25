@@ -15,6 +15,8 @@ import {
   TypescriptSvg,
   ProgresqlSvg,
   AngularSvg,
+  SpringSvg,
+  MysqlSvg,
 } from "@/app/svg/svgs";
 export const myStack = {
   mostUsed: [
@@ -62,43 +64,53 @@ export const myStack = {
     },
     {
       id: 2,
+      name: "Spring Boot",
+      svg: SpringSvg,
+    },
+    {
+      id: 3,
       name: "HTML5",
       svg: HtmlSvg,
     },
     {
-      id: 3,
+      id: 4,
       name: "CSS3",
       svg: CssSvg,
     },
     {
-      id: 4,
+      id: 5,
       name: "Sass",
       svg: SassSvg,
     },
     {
-      id: 5,
+      id: 6,
       name: "Bootstrap",
       svg: BootstrapSvg,
     },
     {
-      id: 6,
+      id: 7,
       name: "Angular",
       svg: AngularSvg,
     },
     {
-      id: 7,
+      id: 8,
       name: "Typescript",
       svg: TypescriptSvg,
     },
     {
-      id: 8,
+      id: 9,
       name: "Php",
       svg: PhpSvg,
     },
     {
-      id: 9,
+      id: 10,
       name: "PostgreSQL",
       svg: ProgresqlSvg,
+    },
+    {
+      id: 11,
+      name: "MySql",
+      svg: MysqlSvg,
     },
   ],
 };
