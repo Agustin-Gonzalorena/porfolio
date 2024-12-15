@@ -18,7 +18,7 @@ export const metadata = {
     },
   ],
   alternates: {
-    canonical: "https://agonzalorena.vercel.app/",
+    canonical: "https://agonzalorena.com/",
   },
   openGraph: {
     images: {
@@ -32,7 +32,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Agustin Gonzalorena",
-  url: "https://agonzalorena.vercel.app/",
+  url: "https://agonzalorena.com/",
   image: "https://iili.io/JgNyWru.jpg",
   jobTitle: "Desarrollador web",
 };
