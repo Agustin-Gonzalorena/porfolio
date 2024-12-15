@@ -10,7 +10,7 @@ export const social = [
     text: "GitHub",
   },
   {
-    url: "https://drive.google.com/file/d/13LVaAfzZG-EF1jnM-3SZbPtKOkTJ4zpY/view",
+    url: "https://drive.google.com/file/d/18OIPDR9DdMbZPz0L_myY489nfE3n_p28/view?usp=sharing",
     icon: "cv",
     text: "Cv",
   },
