@@ -26,7 +26,7 @@ export const projects = [
     text: "Herramienta la cual permite transformar una URL larga en una version mas corta de la misma. Util para compartir en redes sociales, mensajes o correos, ya que reduce el numero de caracteres y ayuda a la visibilidad.",
     links: {
       github: "https://github.com/Agustin-Gonzalorena/shorturl",
-      preview: "https://www.shorturl.ar/",
+      preview: "https://www.shorturl.agonzalorena.com/",
     },
   },
   {
@@ -41,7 +41,7 @@ export const projects = [
     text: "Aplicacion web que muestra efemerides del dia, desarrollada con React y TailwindCSS. Utiliza una API desarrolada con Node.js y Express, la cual esta alojada en un servidor local.",
     links: {
       github: "https://github.com/Agustin-Gonzalorena/efemerides-front",
-      preview: "https://efemeridedehoy.vercel.app/",
+      preview: "https://efemeride.agonzalorena.com",
     },
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
     text: "E-commerce de tecnologia desarrollado con React, consumiendo la API de Mercado Libre. Cuenta con un carrito de compras, busqueda de productos, filtros y detalles de cada producto.",
     links: {
       github: "https://github.com/Agustin-Gonzalorena/shop_melon_react_js",
-      preview: "https://shop-melon-react-js.vercel.app/",
+      preview: "https://ecommerce.agonzalorena.com",
     },
   },
   {
@@ -63,7 +63,7 @@ export const projects = [
     text: "Sitio web que muestra el precio del USDT en tiempo real en diferentes exchanges. Utiliza la API de CryptoYa para obtener los datos necesarios, los cuales se actualizan minuto a minuto.",
     links: {
       github: "https://github.com/Agustin-Gonzalorena/usdt-price",
-      preview: "https://usdtprice.vercel.app/",
+      preview: "https://usdt.agonzalorena.com",
     },
   },
   {
@@ -74,7 +74,7 @@ export const projects = [
     text: "Aplicacion web que permite crear una billetera de Ethereum. Utiliza la libreria de bip39 para generar una frase mnemonica, la cual luego con la ayuda de ethers.js se genera una billetera.",
     links: {
       github: "https://github.com/Agustin-Gonzalorena/wallet-generator",
-      preview: "https://walletcreator.vercel.app/",
+      preview: "https://wallet.agonzalorena.com",
     },
   },
 ];
