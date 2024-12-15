@@ -26,7 +26,7 @@ export const projects = [
     text: "Herramienta la cual permite transformar una URL larga en una version mas corta de la misma. Util para compartir en redes sociales, mensajes o correos, ya que reduce el numero de caracteres y ayuda a la visibilidad.",
     links: {
       github: "https://github.com/Agustin-Gonzalorena/shorturl",
-      preview: "https://www.shorturl.agonzalorena.com/",
+      preview: "https://shorturl.agonzalorena.com/",
     },
   },
   {
