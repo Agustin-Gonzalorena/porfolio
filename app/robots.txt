@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://agonzalorena.vercel.app/sitemap.xml
+Sitemap: https://agonzalorena.com/sitemap.xml
