@@ -42,6 +42,10 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <head>
         <link rel="icon" href="/favicon.svg" />
+        <meta
+          name="google-site-verification"
+          content="ACJVrDkGDbhDblH4pJk0wo59CqRqUTIkKPaokRfJYFU"
+        />
       </head>
       <body className={`${nunito.className} relative tracking-tight`}>
         {children}
