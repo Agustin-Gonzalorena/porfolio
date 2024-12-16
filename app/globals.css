@@ -41,7 +41,7 @@ strong {
   z-index: 999;
   width: 60px;
   height: 60px;
-  background-image: url(/favicon.ico);
+  background-image: url(/my-favicon/favicon.svg);
   border-radius: 50%;
   background-size: 104% 104%;
   background-position: center;

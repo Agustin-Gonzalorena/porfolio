@@ -47,6 +47,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
           rel="icon"
           type="image/png"
@@ -54,7 +55,7 @@ export default function RootLayout({ children }) {
           sizes="96x96"
         />
         <link rel="icon" type="image/svg+xml" href="/my-favicon/favicon.svg" />
-        <link rel="shortcut icon" href="/my-favicon/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
