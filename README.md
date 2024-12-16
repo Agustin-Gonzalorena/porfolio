@@ -1,4 +1,4 @@
-# Mi porfolio
+# Mi portfolio
 
 Creado con Next.js y Tailwind CSS
 
@@ -6,7 +6,7 @@ Creado con Next.js y Tailwind CSS
 
 ## Creditos
 
-Diseño basado en el porfolio de [Midudev](https://github.com/midudev)
+Diseño basado en el portfolio de [Midudev](https://github.com/midudev)
 
 #
 

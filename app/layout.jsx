@@ -4,9 +4,9 @@ import "./globals.css";
 const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Porfolio de Agustin Gonzalorena - Desarrollador web",
+  title: "Portfolio de Agustin Gonzalorena - Desarrollador web",
   description:
-    "Porfolio de Agustin Gonzalorena. Desarrollador web y blockchain entusiasta. FullStack developer. Especializado en la creacion de aplicaciones web personalizadas",
+    "Portfolio de Agustin Gonzalorena. Desarrollador web y blockchain entusiasta. FullStack developer. Especializado en la creacion de aplicaciones web personalizadas",
   keywords: "Agustin Gonzalorena, Desarrollador web, Gonzalorena",
   publisher: "Agustin Gonzalorena",
   robots: "index, follow",
@@ -24,7 +24,7 @@ export const metadata = {
     title: "Agustin Gonzalorena",
     siteName: "Agustin Gonzalorena",
     description:
-      "Porfolio de Agustin Gonzalorena. Desarrollador web y blockchain entusiasta.",
+      "Portfolio de Agustin Gonzalorena. Desarrollador web y blockchain entusiasta.",
     url: "https://agonzalorena.com/",
     images: {
       url: "https://agonzalorena.com/imagen_OpenGraph.png", // Must be an absolute URL
