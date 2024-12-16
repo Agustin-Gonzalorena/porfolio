@@ -1,19 +1,14 @@
-
 # Mi porfolio
+
 Creado con Next.js y Tailwind CSS
 
-![Logo](https://iili.io/JXhzbgp.png)
+![Logo](https://agonzalorena.com/readme_image.png)
 
 ## Creditos
+
 Diseño basado en el porfolio de [Midudev](https://github.com/midudev)
 
 #
-
-
-
-
-
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

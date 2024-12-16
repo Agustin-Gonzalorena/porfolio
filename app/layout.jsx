@@ -27,7 +27,7 @@ export const metadata = {
       "Porfolio de Agustin Gonzalorena. Desarrollador web y blockchain entusiasta.",
     url: "https://agonzalorena.com/",
     images: {
-      url: "https://iili.io/2hIuiAv.png", // Must be an absolute URL
+      url: "https://agonzalorena.com/imagen_OpenGraph.png", // Must be an absolute URL
       width: 800,
       height: 600,
     },
@@ -39,7 +39,7 @@ const jsonLd = {
   "@type": "Person",
   name: "Agustin Gonzalorena",
   url: "https://agonzalorena.com/",
-  image: "https://iili.io/2hIuiAv.png",
+  image: "https://agonzalorena.com/imagen_OpenGraph.png",
   jobTitle: "Desarrollador web",
 };
 
