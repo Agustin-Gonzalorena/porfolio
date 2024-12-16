@@ -47,22 +47,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <head>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta
           name="google-site-verification"
           content="ACJVrDkGDbhDblH4pJk0wo59CqRqUTIkKPaokRfJYFU"
         />
-        <meta
-          name="google-adsense-account"
-          content="ca-pub-7048144468201725"
-        ></meta>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7048144468201725"
-          crossorigin="anonymous"
-        ></script>
       </head>
       <body className={`${nunito.className} relative tracking-tight`}>
         {children}
