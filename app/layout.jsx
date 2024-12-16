@@ -21,11 +21,17 @@ export const metadata = {
     canonical: "https://agonzalorena.com/",
   },
   openGraph: {
+    title: "Agustin Gonzalorena",
+    siteName: "Agustin Gonzalorena",
+    description:
+      "Porfolio de Agustin Gonzalorena. Desarrollador web y blockchain entusiasta.",
+    url: "https://agonzalorena.com/",
     images: {
       url: "https://iili.io/JgNyWru.jpg", // Must be an absolute URL
       width: 800,
       height: 600,
     },
+    type: "website",
   },
 };
 const jsonLd = {
@@ -41,7 +47,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <head>
-        <link rel="icon" href="/favicon.svg" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta
           name="google-site-verification"
           content="ACJVrDkGDbhDblH4pJk0wo59CqRqUTIkKPaokRfJYFU"
