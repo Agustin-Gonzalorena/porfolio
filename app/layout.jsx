@@ -46,6 +46,10 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="ACJVrDkGDbhDblH4pJk0wo59CqRqUTIkKPaokRfJYFU"
         />
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-7048144468201725"
+        ></meta>
       </head>
       <body className={`${nunito.className} relative tracking-tight`}>
         {children}
