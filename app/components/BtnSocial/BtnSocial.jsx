@@ -4,9 +4,11 @@ import styles from "./BtnSocial.module.css";
 import { In, Gh, Cv } from "@/app/svg/svgs";
 
 const BtnSocial = ({ url, icon, text }) => {
-  const [hover, setHover] = useState("#fff");
+  const [hover, setHover] = useState("var(--base)");
   function handleHover() {
-    hover == "#C3FF63" ? setHover("#fff") : setHover("#C3FF63");
+    hover == "var(--primary_a)"
+      ? setHover("var(--base)")
+      : setHover("var(--primary_a)");
   }
   return (
     <a

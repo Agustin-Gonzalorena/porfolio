@@ -22,7 +22,7 @@ const Footer = () => {
               target="_blank"
               title="midudev"
               rel="noopener noreferrer"
-              className="text-[#0099ff]"
+              className="text-[#0099ff] dark:font-thin font-medium"
             >
               midudev.
             </a>

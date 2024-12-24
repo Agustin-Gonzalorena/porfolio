@@ -5,9 +5,9 @@
   min-width: 115px;
   text-align: center;
   padding: 3px 10px;
-  border: 1px solid white;
+  border: 1px solid rgb(184, 184, 184);
   border-radius: 30px;
-  background-color: #1f1f1f;
+  background-color: var(--bg-socialBtn);
   letter-spacing: 0.5px;
   transition: all 0.2s ease-out;
 }
@@ -17,7 +17,7 @@
   margin-right: 5px;
 }
 .btn:hover {
-  background-color: #2f2f2f;
+  background-color: var(--bg-socialBtn-hover);
   border: 1px solid var(--primary_a);
   color: var(--primary_a);
 }

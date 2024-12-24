@@ -68,7 +68,7 @@ export const Xp = () => {
     <svg viewBox="0 0 24 24" fill="none">
       <path
         d="M4 12H3V8C3 6.89543 3.89543 6 5 6H9M4 12V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 18V12M4 12H10M20 12H21V8C21 6.89543 20.1046 6 19 6H15M20 12H14M14 12V10H10V12M14 12V14H10V12M9 6V5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V6M9 6H15"
-        stroke="#fff"
+        stroke="var(--base)"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -82,7 +82,7 @@ export const Pj = () => {
     <svg viewBox="0 0 24 24" fill="#ffffff">
       <path
         fill="none"
-        stroke="#fff"
+        stroke="var(--base)"
         strokeWidth="2"
         d="M9,15 L9,23 L1,23 L1,15 L9,15 Z M23,15 L23,23 L15,23 L15,15 L23,15 Z M9,1 L9,9 L1,9 L1,1 L9,1 Z M23,1 L23,9 L15,9 L15,1 L23,1 Z"
       ></path>
@@ -92,7 +92,7 @@ export const Pj = () => {
 
 export const Me = () => {
   return (
-    <svg fill="#ffffff" viewBox="0 0 32 32">
+    <svg fill="var(--base)" viewBox="0 0 32 32">
       <path d="M16,14a6,6,0,1,1,6-6A6,6,0,0,1,16,14ZM16,4a4,4,0,1,0,4,4A4,4,0,0,0,16,4Z"></path>{" "}
       <path d="M24,30H8a2,2,0,0,1-2-2V22a7,7,0,0,1,7-7h6a7,7,0,0,1,7,7v6A2,2,0,0,1,24,30ZM13,17a5,5,0,0,0-5,5v6H24V22a5,5,0,0,0-5-5Z"></path>{" "}
     </svg>
@@ -101,7 +101,7 @@ export const Me = () => {
 
 export const StackSvg = () => {
   return (
-    <svg viewBox="0 0 16 16" fill="#ffffff">
+    <svg viewBox="0 0 16 16" fill="var(--base)">
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -341,6 +341,52 @@ export const SpringSvg = ({ color }) => {
         {" "}
         <path d="M29.094 1.661c-0.448 1.078-1.021 2.094-1.708 3.031-3.010-3.005-7.089-4.693-11.344-4.693-8.802 0-16.042 7.24-16.042 16.042 0 4.391 1.802 8.594 4.984 11.62l0.589 0.526c2.896 2.438 6.552 3.771 10.333 3.776 8.37 0 15.401-6.552 16-14.896 0.438-4.089-0.766-9.255-2.813-15.401zM7.26 27.755c-0.255 0.323-0.651 0.505-1.063 0.505-0.76 0-1.37-0.615-1.375-1.37 0-0.755 0.625-1.375 1.375-1.375 1.151 0.005 1.792 1.344 1.063 2.24zM29.031 22.953c-3.958 5.271-12.417 3.495-17.833 3.75 0 0-0.964 0.057-1.932 0.214 0 0 0.365-0.151 0.833-0.333 3.807-1.323 5.604-1.578 7.917-2.766 4.354-2.214 8.661-7.057 9.557-12.094-1.661 4.849-6.688 9.010-11.266 10.703-3.135 1.156-8.802 2.281-8.802 2.281l-0.229-0.12c-3.859-1.875-3.974-10.229 3.036-12.927 3.068-1.177 6.010-0.531 9.323-1.318 3.542-0.844 7.641-3.5 9.307-6.964 1.865 5.542 4.109 14.214 0.089 19.573z"></path>{" "}
       </g>
+    </svg>
+  );
+};
+
+export const MoonIcon = () => {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z"
+        stroke="#000000"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      ></path>
+    </svg>
+  );
+};
+
+export const SunIcon = () => {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="12" cy="12" r="3.5" stroke="#fff"></circle>{" "}
+      <path d="M12 5V3" stroke="#fff" strokeLinecap="round"></path>{" "}
+      <path d="M12 21V19" stroke="#fff" strokeLinecap="round"></path>{" "}
+      <path
+        d="M16.9498 7.04996L18.364 5.63574"
+        stroke="#fff"
+        strokeLinecap="round"
+      ></path>{" "}
+      <path
+        d="M5.63608 18.3644L7.05029 16.9502"
+        stroke="#fff"
+        strokeLinecap="round"
+      ></path>
+      <path d="M19 12L21 12" stroke="#fff" strokeLinecap="round"></path>{" "}
+      <path d="M3 12L5 12" stroke="#fff" strokeLinecap="round"></path>{" "}
+      <path
+        d="M16.9498 16.95L18.364 18.3643"
+        stroke="#fff"
+        strokeLinecap="round"
+      ></path>{" "}
+      <path
+        d="M5.63608 5.63559L7.05029 7.0498"
+        stroke="#fff"
+        strokeLinecap="round"
+      ></path>
     </svg>
   );
 };

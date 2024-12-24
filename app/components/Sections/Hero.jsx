@@ -12,8 +12,10 @@ const Hero = () => {
       </h1>
       <div className="text-xl mb-8">
         <p className="text-pretty">
-          <span className="text-primary_a">Desarrollador Web Full Stack</span>,
-          de Buenos Aires, Argentina{" "}
+          <span className="text-primary_light dark:text-primary_a">
+            Desarrollador Web Full Stack
+          </span>
+          , de Buenos Aires, Argentina{" "}
           <Image
             src={argentina}
             className="h-5 w-5 inline select-none pointer-events-none"

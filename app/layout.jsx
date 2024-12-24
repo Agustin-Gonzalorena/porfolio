@@ -6,7 +6,7 @@ const nunito = Nunito({ subsets: ["latin"] });
 export const metadata = {
   title: "Portfolio de Agustin Gonzalorena - Desarrollador web",
   description:
-    "Portfolio de Agustin Gonzalorena. Desarrollador web y blockchain entusiasta. FullStack developer. Especializado en la creacion de aplicaciones web personalizadas",
+    "Portfolio de Agustin Gonzalorena. Desarrollador Web FullStack y blockchain entusiasta. Especializado en la creacion de aplicaciones web personalizadas",
   keywords: "Agustin Gonzalorena, Desarrollador web, Gonzalorena",
   publisher: "Agustin Gonzalorena",
   robots: "index, follow",
@@ -27,7 +27,7 @@ export const metadata = {
       "Portfolio de Agustin Gonzalorena. Desarrollador web y blockchain entusiasta.",
     url: "https://agonzalorena.com/",
     images: {
-      url: "https://agonzalorena.com/imagen_OpenGraph.png", // Must be an absolute URL
+      url: "https://agonzalorena.com/imagen_OpenGraph.png",
       width: 800,
       height: 600,
     },
@@ -45,7 +45,7 @@ const jsonLd = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
+    <html lang="es" className="dark">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
@@ -68,7 +68,9 @@ export default function RootLayout({ children }) {
           content="ACJVrDkGDbhDblH4pJk0wo59CqRqUTIkKPaokRfJYFU"
         />
       </head>
-      <body className={`${nunito.className} relative tracking-tight`}>
+      <body
+        className={`${nunito.className} relative tracking-tight text-[--base] bg-radial-light dark:bg-radial-dark`}
+      >
         {children}
         <script
           type="application/ld+json"

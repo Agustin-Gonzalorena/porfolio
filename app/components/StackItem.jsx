@@ -2,13 +2,15 @@
 import { useState } from "react";
 
 const StackItem = ({ SvgComponent, text }) => {
-  const [hover, setHover] = useState("#fff");
+  const [hover, setHover] = useState("var(--base)");
   function handleHover() {
-    hover === "#C3FF63" ? setHover("#fff") : setHover("#C3FF63");
+    hover == "var(--primary_a)"
+      ? setHover("var(--base)")
+      : setHover("var(--primary_a)");
   }
   return (
     <div
-      className="flex flex-col gap-1 items-center hover:text-primary_a hover:scale-105 transition-all duration-300 ease-in-out min-w-24 "
+      className="flex flex-col gap-1 items-center hover:text-[--primary_a] hover:scale-105 transition-all duration-300 ease-in-out min-w-24 "
       onMouseEnter={handleHover}
       onMouseLeave={handleHover}
     >

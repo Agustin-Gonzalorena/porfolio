@@ -3,9 +3,11 @@ import { useState } from "react";
 import { GithubIcon, LinkIcon } from "@/app/svg/svgs";
 
 const BtnProject = ({ link, title, icon }) => {
-  const [hover, setHover] = useState("#fff");
+  const [hover, setHover] = useState("var(--base)");
   function handleHover() {
-    hover == "#C3FF63" ? setHover("#fff") : setHover("#C3FF63");
+    hover == "var(--primary_a)"
+      ? setHover("var(--base)")
+      : setHover("var(--primary_a)");
   }
   return (
     <a
@@ -13,7 +15,7 @@ const BtnProject = ({ link, title, icon }) => {
       target="_blank"
       rel="noopener noreferrer"
       title={icon == "gh" ? `Ver el código` : `Ver el proyecto`}
-      className="flex items-center gap-2 border rounded-xl py-1 px-3 text-lg font-semibold bg-[#141414] shadow-md shadow-black hover:border-primary_a hover:text-primary_a transition-all active:scale-95"
+      className="flex items-center gap-2 border rounded-xl py-1 px-3 text-lg font-semibold bg-[--bg-socialBtn] shadow-md shadow-black hover:border-[--primary_a] hover:text-[--primary_a] transition-all active:scale-95"
       onMouseEnter={handleHover}
       onMouseLeave={handleHover}
     >
