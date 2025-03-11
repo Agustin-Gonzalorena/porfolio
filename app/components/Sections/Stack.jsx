@@ -16,7 +16,7 @@ const Stack = () => {
       </h3>
       <StackBox option="mostUsed" />
       <h3 className="text-lg font-semibold select-none mb-5 mt-10">
-        Formacion universitaria
+        Formacion académica
       </h3>
       <StackBox option="university" />
     </section>

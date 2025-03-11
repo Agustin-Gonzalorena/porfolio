@@ -1,3 +1,5 @@
+"use client";
+
 const Footer = () => {
   const year = new Date().getFullYear();
   return (

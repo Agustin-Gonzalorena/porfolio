@@ -37,6 +37,38 @@ export const myStack = {
     },
     {
       id: 3,
+      name: "Java",
+      svg: JavaSvg,
+    },
+    {
+      id: 4,
+      name: "Spring Boot",
+      svg: SpringSvg,
+    },
+    {
+      id: 5,
+      name: "PostgreSQL",
+      svg: ProgresqlSvg,
+    },
+    {
+      id: 6,
+      name: "Git",
+      svg: GitSvg,
+    },
+  ],
+  university: [
+    {
+      id: 1,
+      name: "HTML5",
+      svg: HtmlSvg,
+    },
+    {
+      id: 2,
+      name: "CSS3",
+      svg: CssSvg,
+    },
+    {
+      id: 3,
       name: "Node.js",
       svg: NodeSvg,
     },
@@ -52,63 +84,16 @@ export const myStack = {
     },
     {
       id: 6,
-      name: "Git",
-      svg: GitSvg,
-    },
-  ],
-  university: [
-    {
-      id: 1,
-      name: "Java",
-      svg: JavaSvg,
-    },
-    {
-      id: 2,
-      name: "Spring Boot",
-      svg: SpringSvg,
-    },
-    {
-      id: 3,
-      name: "HTML5",
-      svg: HtmlSvg,
-    },
-    {
-      id: 4,
-      name: "CSS3",
-      svg: CssSvg,
-    },
-    {
-      id: 5,
       name: "Sass",
       svg: SassSvg,
     },
     {
-      id: 6,
+      id: 7,
       name: "Bootstrap",
       svg: BootstrapSvg,
     },
     {
-      id: 7,
-      name: "Angular",
-      svg: AngularSvg,
-    },
-    {
       id: 8,
-      name: "Typescript",
-      svg: TypescriptSvg,
-    },
-    {
-      id: 9,
-      name: "Php",
-      svg: PhpSvg,
-    },
-    {
-      id: 10,
-      name: "PostgreSQL",
-      svg: ProgresqlSvg,
-    },
-    {
-      id: 11,
       name: "MySql",
       svg: MysqlSvg,
     },
