@@ -13,9 +13,9 @@ const Hero = () => {
       <div className="text-xl mb-8">
         <p className="text-pretty">
           <span className="text-primary_light dark:text-primary_a">
-            Desarrollador Web Full Stack
-          </span>
-          , de Buenos Aires, Argentina{" "}
+            Desarrollador de Software
+          </span>{" "}
+          de Buenos Aires, Argentina{" "}
           <Image
             src={argentina}
             className="h-5 w-5 inline select-none pointer-events-none"
@@ -24,7 +24,10 @@ const Hero = () => {
           />{" "}
           .
         </p>
-        <p>Especializado en la creación de aplicaciones web personalizadas.</p>
+        <p>
+          Enfocado en Java con Spring Boot y en el desarrollo de aplicaciones
+          web sólidas.
+        </p>
       </div>
       <div className="flex gap-5">
         {social.map((i) => {

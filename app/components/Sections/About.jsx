@@ -13,33 +13,27 @@ const About = () => {
       </h2>
       <div className="flex gap-10 flex-col-reverse items-center md:flex-row">
         <div className="w-full md:w-2/3 flex flex-col gap-5 text-lg text-pretty select-text">
-          <p>
-            Desde joven, siempre disfruté creando cosas. Inicialmente, me
-            sumergí en el estudio de la arquitectura, pero pronto me di cuenta
-            de que{" "}
+          <p id="p1">
+            Siempre me interesó la creación como forma de expresión y resolución
+            de problemas. Durante un tiempo exploré ese interés a través de la
+            arquitectura, pero fue en el {""}
             <span className="text-[--primary_a]">
-              mi verdadera pasión estaba en la creación de software
+              desarrollo de software
             </span>{" "}
-            en lugar de edificios.
+            donde encontré una verdadera vocación.
           </p>
-          <p>
-            Como programador, busco canalizar esa creatividad y funcionalidad
-            para{" "}
+          <p id="p2">
+            Hoy canalizo esa vocación mediante el desarrollo de aplicaciones
+            web, con un enfoque particular en{" "}
             <span className="text-[--primary_a]">
-              ofrecer soluciones a través del desarrollo de aplicaciones web
-            </span>
-            . Por el momento, no he podido decidirme entre enfocarme en el
-            front-end o el back-end, así que me dedico a desarrollar habilidades
-            en ambos aspectos.
-          </p>
-          <p>
-            Mi formación en la{" "}
-            <span className="text-[--primary_a]">
-              Tecnicatura Universitaria en Desarrollo de Aplicaciones
-              Informáticas
+              Java y el ecosistema Spring Boot.
             </span>{" "}
-            en la Universidad Nacional del Centro de la Provincia de Buenos
-            Aires{" "}
+            Me interesa crear soluciones robustas, bien estructuradas y pensadas
+            para escalar en el tiempo.
+          </p>
+          <p id="p3">
+            Estudié en la Universidad Nacional del Centro de la Provincia de
+            Buenos Aires{" "}
             <a
               href="https://exa.unicen.edu.ar/tudai/"
               target="_blank"
@@ -49,11 +43,15 @@ const About = () => {
             >
               {" "}
               (UNICEN)
-            </a>{" "}
-            me ha brindado una base sólida en el diseño y la implementación de
-            software. Además, me encuentro en constante actualización,
-            investigando y estudiando las últimas tecnologías, como
-            <span className="text-[--primary_a]"> Blockchain.</span>
+            </a>
+            , donde adquirí una base sólida en programación, bases de datos y
+            diseño de software.
+          </p>
+          <p id="p4">
+            Sigo comprometido con mi crecimiento técnico y personal,
+            manteniéndome actualizado en herramientas y buenas prácticas que
+            fortalezcan mi perfil como{" "}
+            <span className="text-[--primary_a]">desarrollador backend.</span>
           </p>
         </div>
         <div className="flex">

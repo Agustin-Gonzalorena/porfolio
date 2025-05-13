@@ -1,11 +1,16 @@
 import Image from "next/image";
 import BtnProject from "./BtnProject/BtnProject";
+import { LinkIcon } from "@/app/svg/svgs";
 
 const ProjectItem = ({ title, img, stack, text, links }) => {
   return (
     <div className="min-h-60 w-full flex gap-6 flex-col md:flex-row">
       <div className="h-52 md:h-64 xl:w-1/2  rounded-3xl  overflow-x-hidden overflow-y-hidden shadow-md shadow-black">
-        <a href={links.preview} target="_blank" rel="noopener noreferrer">
+        <a
+          href={links.preview == "null" ? links.github : links.preview}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image
             src={img}
             alt={title}
@@ -24,7 +29,19 @@ const ProjectItem = ({ title, img, stack, text, links }) => {
         <p className="text-lg font-thin mb-3">{text}</p>
         <div className="flex gap-3 select-none">
           <BtnProject link={links.github} title="Code" icon="gh" />
-          <BtnProject link={links.preview} title="Preview" icon="link" />
+          {links.preview == "null" ? (
+            <button
+              className="flex items-center gap-2 border border-gray-500 text-gray-500 rounded-xl py-1 px-3 text-lg font-semibold bg-[--bg-socialBtn] shadow-md shadow-black"
+              disabled
+            >
+              <div className="h-5 w-5">
+                <LinkIcon color={"gray"} />
+              </div>
+              Preview
+            </button>
+          ) : (
+            <BtnProject link={links.preview} title="Preview" icon="link" />
+          )}
         </div>
       </div>
     </div>

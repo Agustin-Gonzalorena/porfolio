@@ -3,8 +3,8 @@ import nextSvg from "../assets/icons/next.svg";
 import tailwindSvg from "../assets/icons/tailwind.svg";
 import firebaseSvg from "../assets/icons/firebase.svg";
 import reactSvg from "../assets/icons/react.svg";
-import meliSvg from "../assets/icons/meli.svg";
-import svSvg from "../assets/icons/server.svg";
+import javaSvg from "../assets/icons/java.svg";
+import springSvg from "../assets/icons/spring.svg";
 
 export const MiniNext = () => {
   return (
@@ -50,24 +50,23 @@ export const MiniReact = () => {
   );
 };
 
-export const MiniMeli = () => {
+export const MiniJava = () => {
   return (
-    <div className="min-w-12 rounded-full text-xs lg:text-sm py-1 px-3 bg-[#6a6d15] text-white flex items-center gap-1">
+    <div className="min-w-12 rounded-full text-xs lg:text-sm py-1 px-3 bg-[#795738] text-white flex items-center gap-1">
       <div className="h-5 w-5 ">
-        <Image src={meliSvg} alt="mercado libre" title="MercadoLibre" />
+        <Image src={javaSvg} alt="java" title="java" />
       </div>
-      API MercadoLibre
+      Java
     </div>
   );
 };
-
-export const MiniSv = () => {
+export const MiniSpring = () => {
   return (
-    <div className="min-w-12 rounded-full text-xs lg:text-sm py-1 px-3 bg-[#473333] text-white flex items-center gap-1">
+    <div className="min-w-12 rounded-full text-xs lg:text-sm py-1 px-3 bg-[#275a1d] text-white flex items-center gap-1">
       <div className="h-5 w-5 ">
-        <Image src={svSvg} alt="server local" title="server local" />
+        <Image src={springSvg} alt="spring" title="spring" />
       </div>
-      Server Local
+      SpringBoot
     </div>
   );
 };

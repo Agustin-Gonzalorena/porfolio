@@ -22,21 +22,6 @@ export const myStack = {
   mostUsed: [
     {
       id: 0,
-      name: "Javascript",
-      svg: JsSvg,
-    },
-    {
-      id: 1,
-      name: "React.js",
-      svg: ReactSvg,
-    },
-    {
-      id: 2,
-      name: "Next.js",
-      svg: NextSvg,
-    },
-    {
-      id: 3,
       name: "Java",
       svg: JavaSvg,
     },
@@ -51,51 +36,45 @@ export const myStack = {
       svg: ProgresqlSvg,
     },
     {
-      id: 6,
-      name: "Git",
-      svg: GitSvg,
+      id: 0,
+      name: "Javascript",
+      svg: JsSvg,
     },
-  ],
-  university: [
     {
       id: 1,
-      name: "HTML5",
-      svg: HtmlSvg,
+      name: "React.js",
+      svg: ReactSvg,
     },
     {
       id: 2,
-      name: "CSS3",
-      svg: CssSvg,
+      name: "Next.js",
+      svg: NextSvg,
     },
     {
-      id: 3,
+      id: 31,
       name: "Node.js",
       svg: NodeSvg,
     },
     {
-      id: 4,
-      name: "Express.js",
-      svg: ExpressSvg,
+      id: 6,
+      name: "Git",
+      svg: GitSvg,
     },
     {
-      id: 5,
+      id: 12,
+      name: "HTML5",
+      svg: HtmlSvg,
+    },
+    {
+      id: 21,
+      name: "CSS3",
+      svg: CssSvg,
+    },
+    {
+      id: 51,
       name: "TailwindCSS",
       svg: TailwindSvg,
     },
-    {
-      id: 6,
-      name: "Sass",
-      svg: SassSvg,
-    },
-    {
-      id: 7,
-      name: "Bootstrap",
-      svg: BootstrapSvg,
-    },
-    {
-      id: 8,
-      name: "MySql",
-      svg: MysqlSvg,
-    },
   ],
+  university: [],
 };

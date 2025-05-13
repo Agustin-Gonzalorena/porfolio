@@ -1,21 +1,43 @@
 import shortUrlImg from "@/app/assets/imgs/1.webp";
 import efemerideImg from "@/app/assets/imgs/2.webp";
-import shopmelonImg from "@/app/assets/imgs/3.webp";
 import usdtpriceImg from "@/app/assets/imgs/4.webp";
 import walletImg from "@/app/assets/imgs/5.webp";
+import mcpImg from "@/app/assets/imgs/6.webp";
 
 import {
   MiniFirebase,
   MiniNext,
   MiniTailwind,
   MiniReact,
-  MiniMeli,
-  MiniSv,
+  MiniJava,
+  MiniSpring,
 } from "../app/components/MiniStack";
 
 export const projects = [
   {
-    id: 0,
+    id: 1,
+    title: "Efemerides",
+    img: efemerideImg,
+    stack: [<MiniSpring key={1} />, <MiniReact key={2} />],
+    text: "Aplicacion web que muestra efemerides del dia, desarrollada con React y TailwindCSS. Utiliza una API desarrolada con Node.js y Express, la cual esta alojada en un servidor local.",
+    links: {
+      github: "https://github.com/Agustin-Gonzalorena/api-efemeride",
+      preview: "https://efemeride.agonzalorena.com",
+    },
+  },
+  {
+    id: 2,
+    title: "MCP Clima",
+    img: mcpImg,
+    stack: [<MiniJava key={1} />],
+    text: "Model Context Protocol local de Tiempo, desarrollado en Java. Utiliza las apis de OpenMeteo para recuperar el tiempo actual de una ciudad, asi el modelo de lenguajeclima puede usar la herramienta para dar la informacion.",
+    links: {
+      github: "https://github.com/Agustin-Gonzalorena/test-mcp",
+      preview: "null",
+    },
+  },
+  {
+    id: 3,
     title: "Acortador URL",
     img: shortUrlImg,
     stack: [
@@ -29,34 +51,8 @@ export const projects = [
       preview: "https://shorturl.agonzalorena.com/",
     },
   },
-  {
-    id: 1,
-    title: "Efemerides",
-    img: efemerideImg,
-    stack: [
-      <MiniReact key={1} />,
-      <MiniTailwind key={2} />,
-      <MiniSv key={3} />,
-    ],
-    text: "Aplicacion web que muestra efemerides del dia, desarrollada con React y TailwindCSS. Utiliza una API desarrolada con Node.js y Express, la cual esta alojada en un servidor local.",
-    links: {
-      github: "https://github.com/Agustin-Gonzalorena/efemerides-front",
-      preview: "https://efemeride.agonzalorena.com",
-    },
-  },
-  {
-    id: 2,
-    title: "E-commerce",
-    img: shopmelonImg,
-    stack: [<MiniReact key={1} />, <MiniMeli key={2} />],
-    text: "E-commerce de tecnologia desarrollado con React, consumiendo la API de Mercado Libre. Cuenta con un carrito de compras, busqueda de productos, filtros y detalles de cada producto.",
-    links: {
-      github: "https://github.com/Agustin-Gonzalorena/shop_melon_react_js",
-      preview: "https://ecommerce.agonzalorena.com",
-    },
-  },
-  {
-    id: 3,
+  /* {
+    id: 4,
     title: "Precio USDT",
     img: usdtpriceImg,
     stack: [<MiniReact key={1} />, <MiniTailwind key={2} />],
@@ -65,9 +61,9 @@ export const projects = [
       github: "https://github.com/Agustin-Gonzalorena/usdt-price",
       preview: "https://usdt.agonzalorena.com",
     },
-  },
+  }, */
   {
-    id: 4,
+    id: 5,
     title: "Wallet Creator",
     img: walletImg,
     stack: [<MiniNext key={1} />, <MiniTailwind key={2} />],
