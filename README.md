@@ -2,7 +2,6 @@
 
 Creado con Next.js y Tailwind CSS
 
-![Logo](https://agonzalorena.com/readme_image.png)
 
 ## Creditos
 
